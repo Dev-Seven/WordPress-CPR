@@ -1,0 +1,1370 @@
+.navbar {
+    padding: 0;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    justify-content: center;
+}
+
+@media (max-width: 767px) {
+    .tabs_menu .nav-tabs {
+        display: none;
+    }
+}
+.tabs_menu .tab-content .tab-pane {
+        display: block !important;
+        opacity: 1;
+ }
+.books-listing {
+    padding: 60px 0;
+}
+.pbr-listing {
+    padding: 60px 0;
+}
+
+.opening-listing .item h3{height: 45px;}
+.opening-listing .item p{height: 75px;}
+.initiative-sec h3{line-height: 40px;}
+.container-fluid.initiative{overflow: hidden;}
+.faculty-slider-box .facult-info h4  to .faculty-slider .facult-info h4 
+.books-listing .item .item-content {width: 48%;}
+.pbr-listing .item .item-content {width: 48%;}
+.pbr-listing .item .item-content .publisher-name {height: 100px;}
+.pbr-content-sec .image-end figure {margin: 0;}
+.pdf-link{position: absolute;bottom: 125px;left: 38px;}
+.opinion-sec .search-sec,
+.opinion-sec .dropdown {
+    padding: 68px 0 51px 0;
+}
+
+.opinion-sec .dropdown {
+    display: flex;
+    justify-content: end;
+}
+
+.opinion-sec .dropdown .btn.btn-secondary {
+    color: #4c4c4c;
+    background-color: transparent;
+    border: 1.5px solid #868686;
+    border-radius: 0;
+    width: 232px;
+    height: 50px;
+    font-family: 'optimabold';
+    font-size: 18px;
+    text-align: left;
+    padding: 12px 24px 12px 17px;
+}
+
+.opinion-sec .dropdown img {
+    display: inline-block;
+    margin-left: 60%;
+    vertical-align: baseline;
+    content: "";
+}
+
+@media (max-width:1700px) {
+ .opinion-sec .item img {
+        width: 480px;
+        height: 180px;
+    }
+    .opinion-sec .item .head-sec {
+        min-height: 80px;
+    }
+    .opinion-sec .item .head-sec.last {
+        min-height: 80px;
+    }
+    .pbr-listing .item .item-img {
+        width: 185px;
+    }
+    .pbr-listing .item .item-content {
+        width: 47%;
+    }
+    .books-listing .item .item-img {
+        width: 180px;
+    }
+}
+@media (max-width:1430px) {
+.books-listing .item .item-content {
+        width: 44%;
+        margin: 0 0 0 10px;
+    }
+    .books-listing .item .item-content .item-booktext h3 {
+        font-size: 15px;
+        line-height: 17px;
+    }
+    .books-listing .item::before {
+        height: 200px;
+    }
+    .books-listing .item .item-content .item-booktext {
+        min-height: 180px;
+    }
+    .books-listing .item .item-content .publisher-name {
+        margin: 20px 0 0 0;
+    }
+    .books-listing .item .item-img {
+        width: 160px;
+    }
+    .books-listing .item .item-content .item-booktext p {
+        margin-bottom: 8px;
+        font-size: 14px;
+        line-height: 15px;
+    }
+    .books-listing .item {
+        padding: 15px;
+        margin: 0 0 30px;
+    }
+    .pbr-listing .item {
+        margin: 0 0 30px;
+        padding: 15px;
+    }
+    .pbr-listing .item .item-img {
+        width: 150px;
+    }
+    .pbr-listing .item .item-content {
+        width: 48%;
+        margin: 0 0 0 10px;
+    }
+    .pbr-listing .item .item-content .item-booktext h3 {
+        font-size: 16px;
+        line-height: 19px;
+        margin: 0 0 10px;
+    }
+    .pbr-listing .item .item-content .item-booktext {
+        min-height: 165px;
+    }
+    .pbr-listing .item::before {
+        height: 180px;
+    }
+    .books-title-sec {
+        padding: 50px 0 80px;
+    }
+    .publish-by-left h3,
+    .editby span {
+        font-size: 18px;
+        line-height: 23px;
+    }
+    .books-content-sec .book-content {
+        padding: 30px 0 25px 15px;
+    }
+    .books-content-sec .book-content p {
+        font-size: 17px;
+        line-height: 21px;
+        margin: 0 0 20px;
+    }
+    .books-title-sec .publish-sec h3 {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .books-content-sec img {
+        margin-top: -28px;
+        margin-bottom: -28px;
+    }
+    .pbr-content-sec .pbr-content {
+        padding: 30px 0 50px;
+    }
+    .pbr-heading-sec {
+        padding: 60px 0 30px;
+    }
+    .pbr-heading-sec h2,
+    .books-title-sec h2 {
+        font-size: 28px;
+        line-height: 33px;
+    }
+    .pbr-heading-sec h3 {
+        font-size: 18px;
+        line-height: 23px;
+        margin: 20px 0 10px;
+    }
+    .pbr-content-sec .pbr-content p {
+        font-size: 17px;
+        line-height: 25px;
+        margin: 0 0 16px;
+    }
+    .pbr-content-sec .image-end img.book-img {
+        top: -195px;
+    }
+    .pdf-link a {
+        font-size: 18px;
+        line-height: 23px;
+    }
+    .opinion-sec .item img {
+        width: 480px;
+        height: 180px;
+    }
+    .opinion-sec .item .head-sec {
+        padding: 15px 10px 13px 10px;
+        min-height: 95px;
+    }
+    .opinion-sec .item .head-sec.last {
+        padding: 15px 10px 13px 10px;
+        min-height: 95px;
+    }
+    .opinion-sec .item .bottom-sec .author-name,
+    .opinion-sec .item .bottom-sec .news-date {
+        width: 100%;
+    }
+    .opinion-sec .item .bottom-sec p {
+        text-align: left;
+    }
+    .pbr-listing .item .item-content .publisher-name span {
+        font-size: 13px;
+        line-height: 16px;
+    }
+    .project-sec .item {
+        padding: 31px 20px 31px 20px;
+    }
+    .project-sec .item h5 {
+        height: 45px;
+    }
+    .btn-sec,
+    .btn-sec.last {
+        padding: 50px 0 0 0;
+    }
+    .opening-listing .item h3 {
+        font-size: 18px;
+    }
+    .opening-listing .item p {
+        font-size: 18px;
+    }
+}
+@media (max-width: 1199px) {
+    .top-head {
+        text-align: left;
+        height: 100%;
+    }
+    .top-head .marquee-text {
+        font-size: 14px;
+        margin: 0 10px 0 0;
+    }
+    .top-head .top-highlight {
+        padding: 10px 16px;
+    }
+    .top-head .top-highlight a {
+        font-size: 15px;
+    }
+    .top-head .social-icon ul li {
+        margin: 0 0 0 11px;
+    }
+    .main-menu>ul>li>a {
+        padding: 0 15px;
+    }
+    footer .footer-link-bold {
+        width: 20%;
+    }
+    footer .newsletter-sec {
+        width: 39%;
+    }
+    .form-group {
+        margin: 0;
+    }
+    .opinion-sec .item img {
+        width: 480px;
+        height: 180px;
+    }
+    .opinion-sec .item .head-sec {
+        padding: 15px 10px 13px 10px;
+        min-height: 100px;
+    }
+    .opinion-sec .item .head-sec.last {
+        padding: 15px 10px 13px 10px;
+        min-height: 100px;
+    }
+    .opinion-sec .item .head-sec h5 {
+        font-size: 18px;
+    }
+    .opinion-sec .item .bottom-sec .author-name,
+    .opinion-sec .item .bottom-sec .news-date {
+        width: 100%;
+    }
+    .opinion-sec .item .bottom-sec p {
+        text-align: left;
+    }
+    .project-sec .item {
+        padding: 31px 13px 31px 13px;
+    }
+    .project-sec .item h5 {
+        font-size: 17px;
+        height: 45px;
+    }
+    .btn-sec,
+    .btn-sec.last {
+        padding: 45px 0 0 0;
+    }
+    .search-bar,
+    .location-bar {
+        width: 35%;
+    }
+    .opening-form h3 {
+        font-size: 25px;
+    }
+    .opening-form .form-group {
+        margin: 0 0 20px 0;
+    }
+    .form-right {
+        margin: 0;
+    }
+    label.form-label.fbtext {
+        font-size: 22px;
+    }
+    .opening-form .form-group.opening {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .innerpage-content .faculty-content h3 {
+        width: 68%;
+    }
+    .innerpage-content .faculty-content img {
+        height: 290px;
+    }
+    .content-inner-sec {
+        width: 80%;
+    }
+    .navbar-expand-lg {
+        flex-flow: wrap;
+    }
+    #logo {
+        width: 25%;
+    }
+    .main-menu>ul>li>a {
+        padding: 0 18px !important;
+        font-size: 18px;
+    }
+}
+@media (max-width: 991px) {
+.bg-light {
+        background-color: transparent !important;
+    }
+    .navbar {
+        margin-bottom: 0 !important;
+    }
+    .dropdown-menu.sub {
+        color: #fff;
+        background-color: transparent;
+        border: none;
+        border-radius: 0;
+        padding: 0;
+    }
+    .dropdown-menu[data-bs-popper] {
+        margin: 0;
+    }
+    .dropdown-menu.sub .dropdown-item {
+        color: #fff !important;
+        font-size: 16px;
+        font-weight: normal;
+        font-family: 'optimabold';
+    }
+    .navbar {
+        padding: .5rem 0;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        color: #fff;
+        padding: 0;
+        font-size: 16px;
+        font-weight: normal;
+        font-family: 'optimabold';
+    }
+    .navbar-light .navbar-nav .nav-link:hover,
+    .navbar-light .navbar-nav .nav-link:focus {
+        color: #fff;
+    }
+    .navbar-light .navbar-nav .active>.nav-link {
+        color: #fff;
+    }
+    .navbar-light .navbar-nav .nav-link.active {
+        color: #fff;
+        padding: 0;
+        font-size: 16px;
+        font-weight: normal;
+        font-family: 'optimabold';
+    }
+    .news-tab {
+        height: 100vh;
+    }
+    .news-tab .left-part {
+        height: 100vh;
+    }
+    .news-tab .nav-pills .nav-link {
+        padding: 0 20px 15px 0;
+    }
+    footer .footer-link-bold {
+        width: 17%;
+    }
+    footer .newsletter-sec {
+        width: 41%;
+    }
+    #newsletter button[type="submit"] {
+        width: 138px;
+    }
+    .form-group {
+        margin: 0;
+    }
+    footer .newsletter-sec .social-icon {
+        text-align: left;
+        margin: 50px 0 0 0;
+    }
+    footer .newsletter-sec .social-icon ul li {
+        margin: 0 16px 0 0;
+    }
+    .books-content-sec .book-content {
+        padding: 30px 0 25px 0;
+    }
+    .top-head {
+        white-space: nowrap;
+        text-align: center;
+    }
+    .top-head .social-icon {
+        display: none;
+    }
+    .top-head .marquee-text-mobile {
+        display: none;
+    }
+    .opinion-sec .item img {
+        width: 480px;
+        height: 180px;
+    }
+    .opinion-sec .item .head-sec {
+        padding: 15px 10px 13px 10px;
+        min-height: 95px;
+    }
+    .opinion-sec .item .head-sec.last {
+        padding: 15px 10px 13px 10px;
+        min-height: 95px;
+    }
+    .opinion-sec .item .bottom-sec .author-name {
+        width: 50%;
+    }
+    .opinion-sec .item .bottom-sec p {
+        text-align: left;
+    }
+    .project-sec .item {
+        padding: 31px 10px 31px 10px;
+    }
+    .project-sec .item h5 {
+        font-size: 18px;
+        height: 45px;
+    }
+    .btn-sec,
+    .btn-sec.last {
+        padding: 45px 0 0 0;
+    }
+    .search-bar {
+        width: 40%;
+    }
+    .location-bar {
+        width: 36%;
+    }
+    .opening-listing .item h3 {
+        font-size: 18px;
+        height: auto;
+    }
+    .opening-listing .item p {
+        font-size: 16px;
+        height: auto;
+    }
+    .opening-form h3 {
+        font-size: 22px;
+        padding: 0 30px;
+    }
+    .opening-form {
+        padding: 60px 0 100px;
+    }
+    .opening-form .heading {
+        margin: 0 0 40px;
+    }
+    .opening-form .main-form-sec,
+    .opening-form .main-form-right-sec {
+        max-width: 100%;
+        flex: none;
+        padding: 0 35px;
+    }
+    label.form-label.fbtext {
+        font-size: 20px;
+        margin: 0;
+    }
+    .form-check-inline {
+        margin: 0 20px 0 0;
+    }
+    .opening .form-check-label {
+        font-size: 20px;
+    }
+    .form-group.up-file-sec .form-label {
+        display: inline-block;
+        text-align: left;
+        width: auto;
+        margin: 5px 2px 0 0;
+    }
+    .upload-file {
+        display: inline-block;
+        vertical-align: top;
+    }
+    .main-menu {
+        float: left;
+    }
+    .innerpage-content .faculty-content img {
+        height: 250px;
+    }
+    .innerpage-content .faculty-content h3,
+    .inner-banner .facylty-degination {
+        font-size: 18px;
+    }
+    .innerpage-content p {
+        font-size: 17px;
+        line-height: 25px;
+    }
+    .content-inner-sec {
+        width: 90%;
+    }
+    .navbar-light .navbar-toggler {
+        color: rgba(0, 0, 0, 0);
+        border-color: rgba(0, 0, 0, 0);
+    }
+}
+
+@media (min-width:992px) {
+    .marquee-text-mobile {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+.top-head {
+        height: 45px;
+        text-align: left;
+    }
+    .top-head .top-highlight {
+        padding: 10px 16px;
+        position: absolute;
+        right: 0;
+    }
+    .bg-light {
+        background-color: transparent !important;
+    }
+    .navbar {
+        margin-bottom: 0 !important;
+    }
+    .dropdown-menu.sub {
+        color: #fff;
+        background-color: transparent;
+        border: none;
+        border-radius: 0;
+        padding: 0;
+    }
+    .dropdown-menu[data-bs-popper] {
+        margin: 0;
+    }
+    .dropdown-menu.sub .dropdown-item {
+        color: #fff !important;
+        font-size: 16px;
+        font-weight: normal;
+        font-family: 'optimabold';
+    }
+    .navbar {
+        padding: .5rem 0;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        color: #fff;
+        padding: 0;
+        font-size: 16px;
+        font-weight: normal;
+        font-family: 'optimabold';
+    }
+    .navbar-light .navbar-nav .nav-link:hover,
+    .navbar-light .navbar-nav .nav-link:focus {
+        color: #fff;
+    }
+    .navbar-light .navbar-nav .active>.nav-link {
+        color: #fff;
+    }
+    .navbar-light .navbar-nav .nav-link.active {
+        color: #fff;
+        padding: 0;
+        font-size: 16px;
+        font-weight: normal;
+        font-family: 'optimabold';
+    }
+    .inner-banner .breadcrumb,
+    .breadcrumb {
+        justify-content: center;
+    }
+    .inner-banner .breadcrumb-item,
+    .breadcrumb-item {
+        font-size: 16px;
+    }
+    .inner-banner h1 {
+        font-size: 22.5px;
+        text-align: center;
+    }
+    .innerpage-content p {
+        font-size: 16px;
+        line-height: 23px;
+        text-align: center;
+    }
+    .news-tab {
+        height: 100%;
+    }
+    .news-tab .tab-content {
+        width: 93%;
+        margin: 0 20px 0 20px;
+        padding: 70px 0 70px 0;
+    }
+    .tab-news-sec {
+        padding: 0;
+        margin: 0 0 30px;
+    }
+    .tab-news-text h3 {
+        font-size: 18px;
+    }
+    .tab-news-text p {
+        font-size: 15px;
+    }
+    .tab-news-sec .news-date p {
+        font-size: 16px;
+    }
+    footer {
+        padding: 45px 0;
+        height: 600px;
+    }
+    footer .footer-link {
+        width: 37%;
+        padding-left: 20px;
+    }
+    footer .footer-link-bold {
+        width: 22%;
+    }
+    footer .footer-link-bold ul li {
+        font-size: 17px;
+    }
+    footer .newsletter-sec {
+        width: 100%;
+    }
+    #newsletter {
+        margin: 0 auto;
+        margin-top: 20px;
+        width: 70%;
+    }
+    footer .newsletter-sec h3 {
+        text-align: center;
+        margin-top: 20px;
+    }
+    footer h3,
+    #newsletter button[type="submit"] {
+        font-size: 20px;
+        margin: 0 0 10px 0;
+    }
+    .form-group {
+        margin: 0 0 0;
+    }
+    #newsletter button[type="submit"] {
+        width: 115px;
+    }
+    footer .newsletter-sec .social-icon {
+        margin: 70px 0 0 0;
+        text-align: center;
+    }
+    footer .newsletter-sec .social-icon ul li {
+        margin: 0 16px 0 0;
+    }
+    .books-content-sec .book-content {
+        padding: 50px 0 25px 0;
+    }
+    .space {
+        height: 0 !important;
+    }
+    .top-head .marquee-text {
+        display: none;
+    }
+    .top-head .marquee-text-mobile {
+        font-family: 'optimanormal';
+        display: inline-block;
+        vertical-align: top;
+        font-size: 17px;
+        font-weight: normal;
+        line-height: 19px;
+        color: #fff;
+        margin: 0 10px 0 0;
+        padding: 12px 0 0 0;
+    }
+    .top-head .social-icon {
+        display: none;
+    }
+    .opinion-sec .item img {
+        width: 100%;
+        max-height: 290px;
+    }
+    .opinion-sec .item .bottom-sec .author-name {
+        width: 100%;
+    }
+    .opinion-sec .item .bottom-sec h3,
+    .opinion-sec .item .bottom-sec p {
+        text-align: center;
+    }
+    .opinion-sec .item .head-sec h5 {
+        text-align: center;
+    }
+    .opinion-sec .item .head-sec.last {
+        padding: 15px 10px 13px 10px;
+    }
+    .pbr-content-sec .image-end img.book-img {
+        position: relative;
+        top: -40px;
+        max-width: 70%;
+        text-align: center;
+    }
+    .pbr-content-sec .image-end figure {
+        text-align: center;
+    }
+    .pbr-heading-sec h2 {
+        font-size: 24px;
+        line-height: 33px;
+        text-align: center;
+    }
+    .pbr-heading-sec h3,
+    .pbr-content-sec .pbr-content p {
+        font-size: 16px;
+        text-align: center;
+    }
+    .pbr-heading-sec p {
+        text-align: center;
+    }
+    .pdf-link {
+        position: initial;
+        margin-bottom: 25px;
+    }
+    .project-sec .item {
+        padding: 25px;
+    }
+    .project-sec .item h5,
+    .project-sec .item p {
+        text-align: center;
+    }
+    .btn-sec {
+        padding: 38px 0 0 0;
+    }
+    .btn-sec a.btn_1.outline {
+        margin: 0 auto;
+        display: block;
+        width: 180px;
+    }
+    .common .search-sec {
+        padding: 50px 0 30px 0;
+    }
+    .common .dropdown {
+        padding: 0 0 50px 0;
+        justify-content: center;
+    }
+    .project-search-bar {
+        width: 72%;
+        margin-right: 15px;
+    }
+    .search-box {
+        text-align: center;
+    }
+    .opinion-sec .search-sec {
+        padding: 50px 0 30px 0;
+    }
+    .opinion-sec .dropdown {
+        padding: 0 0 50px 0;
+        justify-content: center;
+    }
+    h3.small-heading {
+        text-align: center;
+    }
+    .vacanci-sec .search-box {
+        padding: 0 30px;
+    }
+    .search-bar {
+        width: 100%;
+    }
+    .location-bar {
+        width: 100%;
+        margin: 38px 0 35px 0;
+    }
+    .ap-btn-sec a.btn_1.outline {
+        display: inline-block;
+    }
+    .opening-listing .item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .opening-listing .item p {
+        text-align: center;
+        padding: 0 30px;
+        font-size: 17px;
+    }
+    .opening-form {
+        padding: 52px 0 100px;
+    }
+    .opening-form .heading {
+        margin: 0 0 20px;
+    }
+    .opening-form h3 {
+        font-size: 21px;
+        line-height: 30px;
+        padding: 0 30px;
+    }
+    .opening-form .form-group {
+        margin: 0 0 20px 0;
+    }
+    label.form-label {
+        text-align: center;
+        margin: 0 0 8px;
+        font-size: 15px;
+    }
+    label.form-label.fbtext {
+        font-size: 16px;
+        text-align: left;
+        display: inline-block;
+        width: 55%;
+        margin: 0;
+    }
+    .opening .form-check-label {
+        font-size: 16px;
+    }
+    .form-right .btn-apply {
+        text-align: center;
+    }
+    .form-group.label-apply,
+    .form-group.up-file-sec {
+        text-align: center;
+    }
+    .form-group.label-apply label.form-label.fbtext {
+        width: auto;
+    }
+    .label-apply .form-check-label {
+        font-size: 16px;
+    }
+    .form-group.up-file-sec .form-label {
+        display: inline-block;
+        text-align: left;
+        width: auto;
+        margin: 5px 15px 0 0;
+    }
+    .upload-file {
+        display: inline-block;
+        vertical-align: top;
+    }
+    .opening-form .main-form-sec,
+    .opening-form .main-form-right-sec {
+        max-width: none;
+        flex: none;
+        padding: 0 15px;
+    }
+    .tab-pane .col-md-12 {
+        text-align: center;
+    }
+    .pdf-item {
+        margin: 0 23px 20px 0;
+    }
+    .pdf-info p,
+    .pdf-info h4 {
+        text-align: left;
+    }
+    .tab-menu-sec,
+    .tabs_menu .nav-tabs {
+        justify-content: center;
+    }
+    .grey-tabbing .nav-tabs .nav-link {
+        margin: 0 23px 20px 0;
+    }
+    .books-content-sec .book-content p,
+    .books-title-sec h2,
+    .books-content-sec .col-md-4 {
+        text-align: center;
+    }
+    a.btn_1.outline {
+        margin: 0 auto;
+        display: block;
+        width: 180px;
+    }
+    .books-title-sec .publish-sec {
+        align-items: center;
+    }
+    .inner-banner .facylty-degination {
+        font-size: 14px;
+        text-align: center;
+    }
+    .inner-banner .facylty-degination img {
+        margin: 0 0 0 5px;
+        width: 20px;
+    }
+    .innerpage-content .faculty-content {
+        display: block;
+        text-align: center;
+    }
+    .innerpage-content .faculty-content .faculty-img {
+        position: initial;
+    }
+    .innerpage-content .faculty-content h3 {
+        width: 100%;
+        margin: 30px 0 30px 0;
+        font-size: 17px;
+    }
+    .txt-detail {
+        margin-bottom: 0 !important;
+    }
+    .initiate-inner-sec {
+        text-align: center;
+    }
+    .content-inner-sec {
+        width: 100%;
+        margin: 50px 0 0 0;
+    }
+    .container-fluid.initiative {
+        padding: 0 15px !important;
+    }
+    .initiative-sec h3,
+    .container.arrow {
+        text-align: center;
+    }
+    .img-inner-sec {
+        display: flex;
+        justify-content: center;
+    }
+    .container.arrow img {
+        float: none;
+    }
+    .news-tab .tab-content {
+        width: 100%;
+        margin: 0;
+        padding: 100px 0 60px 0;
+        position: absolute;
+        left: 0;
+    }
+    .news-tab {
+        height: 100%;
+    }
+    .news-tab .left-part {
+        width: 100%;
+        padding: 40px 15% 40px 15%;
+        height: 800px;
+    }
+    .left-part .search-bar {
+        width: 100%;
+        margin: 0;
+    }
+    .card {
+        border: none;
+    }
+    .card-header {
+        background-color: #e8e9ec;
+        border-bottom: none;
+        display: flex;
+        justify-content: center;
+    }
+    .card-body {
+        background: #f0f0f1;
+        height: 410px;
+        overflow: scroll;
+    }
+    .tab-news-sec {
+        padding: 0;
+        margin: 0 0 30px;
+        text-align: center;
+        display: block;
+    }
+    .tab-news-text {
+        display: block;
+    }
+    .tab-news-text h3 {
+        font-size: 17px;
+        margin-bottom: 8px;
+    }
+    .tab-news-text p {
+        font-size: 14px;
+        margin-bottom: 12px;
+    }
+    .tab-news-sec .news-date p {
+        font-size: 15px;
+        text-align: center;
+        margin-bottom: 8px;
+    }
+    .mobile-tab {
+        font-family: 'optimabold';
+        font-size: 20px;
+        font-weight: normal;
+        line-height: 23px;
+        width: 51%;
+        text-align: center;
+        list-style: none;
+    }
+    .mobile-tab a {
+        border: none;
+        margin: 0;
+        padding: 0 0 5px 0;
+        border-bottom: 2px solid transparent;
+        height: auto;
+        font-family: 'optimabold';
+        font-size: 20px;
+        font-weight: normal;
+        line-height: 23px;
+        color: #b3b3b3;
+    }
+    .mobile-tab a:focus {
+        border-bottom: 2px solid #f8cd47;
+        background-color: transparent;
+        color: #2c314c;
+        border-radius: 0;
+    }
+    .tab-pane>.card-header>.mobile-tab>a:not(.collapsed) {
+        border-bottom: 2px solid #f8cd47;
+        background-color: transparent;
+        color: #2c314c;
+        border-radius: 0;
+    }
+    .faculty-slider .facult-img,
+    .faculty-slider .facult-info {
+        width: 70% !important;
+    }
+    .faculty-slider .slick-slide {
+        display: flex !important;
+        flex-direction: column;
+        align-items: center;
+        margin: 20px 7.5px 0 !important;
+        text-align: center;
+    }
+    .faculty-slider .facult-info h4 {
+        font-size: 25px;
+    }
+    .faculty-slider-sec .container-fluid {
+        padding: 0 !important;
+    }
+    .slick-prev {
+        border: none;
+        position: absolute !important;
+        width: 60px;
+        height: 110px;
+        margin-top: -55px !important;
+        background-color: #efe2ba;
+        text-indent: -999px;
+        background-image: url('../img/left-arrow.png');
+        background-repeat: no-repeat;
+        background-position-x: 7px;
+        background-position-y: center;
+        background-size: 35px;
+        border-bottom-right-radius: 90px;
+        border-top-right-radius: 90px;
+    }
+    .slick-next {
+        border: none;
+        position: absolute !important;
+        width: 60px;
+        height: 110px;
+        margin-top: -55px !important;
+        background-color: #efe2ba;
+        text-indent: -9999px;
+        background-image: url('../img/rigt-arrow.png');
+        background-repeat: no-repeat;
+        background-position-x: 20px;
+        background-position-y: center;
+        background-size: 35px;
+        border-bottom-left-radius: 90px;
+        border-top-left-radius: 90px;
+    }
+    .slick-prev:focus,
+    .slick-next:focus {
+        outline: none;
+    }
+    .slick-slide img {
+        display: inline-block !important;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+.top-head {
+        height: 45px;
+        text-align: left;
+    }
+    .top-head .top-highlight {
+        position: absolute;
+        right: 0;
+    }
+    .bg-light {
+        background-color: transparent !important;
+    }
+    /* .main-menu,
+    #logo {
+        display: none;
+    } */
+    #logo-mobile img {
+        width: 190px;
+    }
+    .navbar {
+        margin-bottom: 0 !important;
+        padding: .5rem 0;
+    }
+    .dropdown-menu.sub {
+        color: #fff;
+        background-color: transparent;
+        border: none;
+        border-radius: 0;
+        padding: 0;
+    }
+    .dropdown-menu[data-bs-popper] {
+        margin: 0;
+    }
+    .dropdown-menu.sub .dropdown-item {
+        color: #fff !important;
+        font-size: 16px;
+        font-weight: normal;
+        font-family: 'optimabold';
+    }
+    .navbar-light .navbar-nav .nav-link {
+        color: #fff;
+        padding: 0;
+        font-size: 16px;
+        font-weight: normal;
+        font-family: 'optimabold';
+    }
+    .navbar-light .navbar-nav .nav-link:hover,
+    .navbar-light .navbar-nav .nav-link:focus {
+        color: #fff;
+    }
+    .navbar-light .navbar-nav .active>.nav-link {
+        color: #fff;
+    }
+    .navbar-light .navbar-nav .nav-link.active {
+        color: #fff;
+        padding: 0;
+        font-size: 16px;
+        font-weight: normal;
+        font-family: 'optimabold';
+    }
+    .navbar-light .navbar-toggler {
+        border-color: rgb(25, 30, 54);
+    }
+    button:focus {
+        outline: 0;
+    }
+    .dropdown-item:focus,
+    .dropdown-item:hover {
+        background-color: transparent;
+    }
+    .inner-banner .breadcrumb,
+    .breadcrumb {
+        justify-content: center;
+    }
+    .inner-banner .breadcrumb-item,
+    .breadcrumb-item {
+        font-size: 16px;
+    }
+    .inner-banner h1 {
+        font-size: 22.5px;
+        text-align: center;
+    }
+    .small-heading1 {
+        text-align: center;
+    }
+    footer {
+        height: 600px;
+    }
+    footer .footer-link {
+        width: 37%;
+        padding-left: 10px;
+    }
+    footer .footer-link-bold {
+        width: 14%;
+    }
+    footer .footer-link-bold ul li {
+        font-size: 17px;
+    }
+    footer .newsletter-sec {
+        width: 100%;
+    }
+    footer .newsletter-sec h3 {
+        text-align: center;
+        margin-bottom: 0;
+        font-size: 18px;
+        margin-top: 20px;
+    }
+    footer .newsletter-sec .social-icon span {
+        font-size: 16.5px;
+    }
+    footer h3,
+    footer,
+    #newsletter button[type="submit"] {
+        font-size: 18px;
+    }
+    .form-group {
+        margin: 0 0 0;
+    }
+    #newsletter {
+        margin: 0 auto;
+        margin-top: 10px;
+        width: 85%;
+    }
+    #newsletter button[type="submit"] {
+        width: 115px;
+    }
+    #newsletter input[type="email"] {
+        font-size: 17px;
+    }
+    footer .newsletter-sec .social-icon {
+        margin: 70px 0 0 0;
+        text-align: center;
+    }
+    footer .newsletter-sec .social-icon ul li {
+        margin: 0 10px 0 0;
+    }
+    .books-content-sec .book-content {
+        padding: 50px 0 25px 0;
+    }
+    .space {
+        height: 0;
+    }
+    .top-head .marquee-text {
+        display: none;
+    }
+    .top-head .marquee-text-mobile {
+        font-family: 'optimanormal';
+        display: inline-block;
+        vertical-align: top;
+        font-size: 15px;
+        font-weight: normal;
+        line-height: 19px;
+        color: #fff;
+        margin: 0 10px 0 0;
+        padding: 12px 0 0 0;
+    }
+    .opinion-sec .item .head-sec {
+        padding: 21px 0 30px 0;
+    }
+    .opinion-sec .item .head-sec.last {
+        padding: 15px 10px 13px 10px;
+    }
+    .opinion-sec .item .head-sec h5 {
+        text-align: center;
+        font-size: 18px;
+    }
+    .opinion-sec .item .bottom-sec .author-name,
+    .opinion-sec .item .bottom-sec .news-date {
+        width: 100%;
+    }
+    .opinion-sec .item .bottom-sec h3,
+    .opinion-sec .item .bottom-sec p {
+        text-align: center;
+    }
+    .opinion-sec .item img {
+        width: 100%;
+    }
+    .pbr-listing .item .item-content {
+        width: 47%;
+    }
+    .pbr-listing .item .item-content .publisher-name span {
+        font-size: 13px;
+    }
+    .pbr-listing {
+        padding: 0;
+    }
+    .common .search-sec {
+        padding: 40px 25px 20px 25px;
+    }
+    .common .dropdown {
+        padding: 0 0 40px 0;
+        justify-content: center;
+    }
+    .project-search-bar {
+        margin: 0 0 20px 0;
+        width: 100%;
+    }
+    .search-button {
+        margin: 0 auto;
+        display: block;
+    }
+    .search-button span {
+        margin: 0 0 0 18px;
+    }
+    .opinion-sec .search-sec {
+        padding: 40px 25px 20px 25px;
+    }
+    .opinion-sec .dropdown {
+        padding: 0 0 40px 0;
+        justify-content: center;
+    }
+    .project-sec .search-sec {
+        padding: 40px 25px 20px 25px;
+    }
+    .project-sec .dropdown {
+        padding: 0 0 40px 0;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 372px) {
+    .books-listing .item .item-img {
+        width: 130px;
+    }
+    footer {
+        height: 630px !important;
+    }
+    .pbr-listing .item .item-img {
+        width: 130px;
+    }
+    .pbr-listing .item .item-content {
+        width: 44%;
+    }
+    .pbr-listing .item .item-content .item-booktext h3 {
+        font-size: 13px;
+    }
+    .pbr-listing .item .item-content .item-booktext .pub-date {
+        font-size: 12px;
+    }
+    .pbr-listing .item .item-content .publisher-name span {
+        font-size: 10px;
+    }
+}
+.space {
+    height: 150px;
+}
+
+.nav-tabs {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .news-tab .nav-tabs {
+        display: flex;
+        flex-flow: column nowrap;
+    }
+    .news-tab .nav-tabs {
+        border-bottom: none;
+        display: flex;
+    }
+    .news-tab .nav-tabs .nav-link {
+        transition: border-color 0.125s ease-in;
+        white-space: nowrap;
+    }
+    .news-tab .nav-tabs .nav-link.active {
+        border-bottom-color: 2px solid #f8cd47;
+        border-right-color: #fff;
+        border-bottom-left-radius: 0.25rem;
+        border-top-right-radius: 0;
+        margin-right: -1px;
+    }
+    .card {
+        border: none;
+    }
+    .card .card-header {
+        display: none;
+    }
+    .card .collapse {
+        display: block;
+    }
+    .card-body {
+        padding: 0;
+    }
+    .slick-prev,
+    .slick-next {
+        display: none !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .news-tab .tab-pane {
+        display: block !important;
+        opacity: 1 !important;
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "Plugin Name": "WP Importer Custom Fields PRO",
+    "version": [
+      "2.0.8",
+      "2.0.7",
+      "2.0.6"
+    ],
+    "changelogs": {
+      "2.0.6": {
+        "0": "Added: Support for Toolset Latest Version"
+      },
+      "2.0.7": {
+        "0": "Added: Compatibility for WordPress 5.7.1",
+        "1": "Added: Import support for All in One SEO latest version 4.1.0.2"
+      },
+      "2.0.8":{
+        "0": "Fixed:post date changes to current date on updating posts",
+        "1": "Fixed:header manipulation issue",
+        "2": "Added:Add option(enable/disable button) in the settings page to delete the post that are not available in the csv file", 
+        "3": "Fixed:Jet engine Image field type custom fields issue on setitng image type as image url",
+        "4": "Fixed:user password not importing in hash format issue",
+        "5": "Fixed:import first image from csv column and skip other images in case of multi images provided for featured image import",
+        "6": "Added:user update via user_login field",
+        "7": "Fixed:jet engine date field issue",
+        "8": "Fixed:acf image gallery import support via image name",
+        "9": "Fixed:yoast seo facebook, twitter image fields import issue",
+        "10": "Changed:featured image text to image url for media images import",
+        "11": "Fixed:media images update issue",
+        "12": "Fixed:taxonomies, custom post type view log issue",
+        "13": "Fixed:removed deactivated plugin custom fields from mapping",
+        "14": "Added:pods relationship import support for user",
+        "15": "Added:multiple xml records import",
+        "16": "Fixed:yoast seo, rankmath fields import issue"
+      }
+    }
+}
